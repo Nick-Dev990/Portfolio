@@ -21,9 +21,13 @@ nav{
     display: flex;
     gap: 20px;
 }
+h1{
+    font-size: 24px;
+}
 .lang{
-    margin-left: 20px;
-    font-size: 18px;
+    margin-left: auto;
+    top: 10px;
+    right: 20px;
 }
 nav a{
     color: white; 
@@ -106,7 +110,7 @@ section{
     transform: scale(1.09);
     opacity: 0.9;
 }
-@media(max-width: 680px){
+@media(max-width: 768px){
     body{
         padding: 10px;
     }
@@ -120,7 +124,19 @@ section{
     nav div{
         margin-top: 10px;
     }
+    .lang{
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
 }
+@media (max-width: 400px){
+    .lang{
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        font-size: 14ipx;
+    }
 .github-icon{
     color: black;
 }
