@@ -289,6 +289,18 @@ a:focus-visible {
     text-underline-offset: 4px;
 }
 
+.project-links {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 12px 24px;
+    margin-top: auto;
+}
+
+.project-links .text-link {
+    margin-top: 0;
+}
+
 .text-link:hover {
     color: #7dd3fc;
 }
